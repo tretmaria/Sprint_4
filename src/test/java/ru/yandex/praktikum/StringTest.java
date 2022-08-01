@@ -7,11 +7,11 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class StringTest {
+public class AccountTest {
     private String name;
     private boolean result;
 
-    public StringTest(String name, boolean result) {
+    public AccountTest(String name, boolean result) {
         this.name = name;
         this.result = result;
     }
