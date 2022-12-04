@@ -1,14 +1,6 @@
 # Sprint_4
-Описание: нужно написать программу из двух классов, а после — покрыть её тестами и запустить сборку в Jenkins.
+Description: you need to write a program, and then - cover it with tests and run the build in Jenkins.
 
-На банковской карте можно напечатать данные владельца. Чтобы это сделать, принтеру передают строку с именем и фамилией — например, «Тимоти Шаламе». Её получится напечатать, если соблюдены требования:
-в строке не меньше 3 и не больше 19 символов,
-в строке есть только один пробел,
-пробел стоит не в начале и не в конце строки.
+The program allows to print owner's data on a bank card. To do this, the printer is given a string with the name and surname - for example, "Timothy Schalame". It can be printed if the following requirements are met: the string has at least 3 and no more than 19 characters, there is only one space in the string, the space is not at the beginning or at the end of the string.
 
-Программа должна проверять, можно ли напечатать строку на карте. Например, «Тимоти Шаламе» — можно, а «ТимотейШевроле» — нет.
-Программа будет состоять из двух классов:
-основной класс для запуска;
-класс с методом валидации строки, которая содержит имя и фамилию.
-
-Настроить прогон проверок в Jenkins, чтобы тесты не падали.
+The program must check if the string can be printed on the card. For example, "Timothy Schalame" is allowed, but "TimoteiChevrolet" is not. The program will consist of two classes: the main class, and a class with a method to validate the string, which contains the name and surname.
